@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listo to do</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+   
+    
+    
+    </div>
+    <div class="container-fluid d-grid gap-2 p-5" >
+        <div class="div imput-tarea" >
+              <input type="text" class="form-control" onkeydown="agregartarea(this.value)" placeholder="Ingrese tarea" id="input-tarea">
+              <button id="five" class=" btn btn-primary " onclick="extraerTarea()" type="submit">Enviar</button>
+        </div>
+      
+        <div id="select" >
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title" id="tarea">Tarea</h5>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid gird" id="lista-de-tareas">
+       
+          
+        </div>
+    </div>
+    
+</body>
+</html>
